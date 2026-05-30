@@ -10,7 +10,7 @@ source:
   sha256: df241d3dfcd81ef47543fa4edb5a2b9fa200b68e047f42d9f3fa152c37f7e067
 
 build:
-  number: 0
+  number: 1
   skip:
     - match(python, "<3.10")
   script:

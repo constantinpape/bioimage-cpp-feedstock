@@ -1,5 +1,5 @@
 context:
-  version: "0.3.0"
+  version: "0.4.0"
 
 package:
   name: bioimage-cpp
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/computational-cell-analytics/bioimage-cpp/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: a006b9942e5eeaf6e185bdd43a36b1cda368e0ed5324a5a8c2621ccc85fb2f4c
+  sha256: 245d172099849cd83f95f246194eda439ed25ecf2116e91792032b3ea08cfde0
 
 build:
   number: 0

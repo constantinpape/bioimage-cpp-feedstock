@@ -7,7 +7,7 @@ conda_build:
 conda_forge_output_validation: true
 build_platform:
   osx_arm64: osx_64
-  linux_aarch64: lunux_64
+  linux_aarch64: linux_64
   linux_ppc64le: linux_64
 # osx-arm64 is cross-compiled on an osx-64 host, so its arm64 test binaries cannot run on
 # the build agent. Restrict tests to native platforms (skips the cross-compiled osx-arm64 tests;

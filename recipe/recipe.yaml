@@ -1,5 +1,5 @@
 context:
-  version: "0.4.0"
+  version: "0.5.0"
 
 package:
   name: bioimage-cpp
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/computational-cell-analytics/bioimage-cpp/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 245d172099849cd83f95f246194eda439ed25ecf2116e91792032b3ea08cfde0
+  sha256: f56e553b60f60843989dd81527aaa855051d5c581e8b80643e2b7c993ef3ccba
 
 build:
-  number: 1
+  number: 0
   skip:
     - match(python, "<3.10")
   script:
